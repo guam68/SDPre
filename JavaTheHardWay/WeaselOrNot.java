@@ -14,5 +14,7 @@ public class WeaselOrNot {
 
         System.out.println("You typed what was requested: " + yep);
         System.out.println("You ignored polite instructions: " + nope);
+
+        keyboard.close();
     }
 }

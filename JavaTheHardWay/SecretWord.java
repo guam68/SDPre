@@ -18,5 +18,7 @@ public class SecretWord {
         if (guess == secret) {
             System.out.println("(This will never ever show, no matter what.)");
         }
+
+        keyboard.close();
     }
 }

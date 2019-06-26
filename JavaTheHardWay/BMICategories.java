@@ -33,5 +33,7 @@ public class BMICategories {
         else {
             System.out.println("very severly/\"morbidly\" obese");
         }
+
+        keyboard.close();
     }
 }

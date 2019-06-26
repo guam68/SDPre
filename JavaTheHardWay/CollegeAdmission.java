@@ -25,5 +25,7 @@ public class CollegeAdmission {
         else // below 390
             out.print("DENIED ");
         out.println();
+
+        keyboard.close();
     }
 }

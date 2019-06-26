@@ -32,5 +32,7 @@ public class BooleanExpressions {
         System.out.println(!(x != y) + " " + (x == y)); 
         System.out.println(!(x > y) + " " + (x <= y)); 
         System.out.println(!(x >= y) + " " + (x < y)); 
+        
+        keyboard.close();
     }
 }

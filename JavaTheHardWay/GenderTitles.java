@@ -34,5 +34,7 @@ public class GenderTitles {
         }
 
         System.out.println("\n" + title + " " + last);
+
+        keyboard.close();
     }
 }
