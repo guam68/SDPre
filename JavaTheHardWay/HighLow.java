@@ -26,5 +26,6 @@ public class HighLow {
         }
 
         System.out.println("You guessed it! What are the odds?!?");
+        keyboard.close();
     }
 }

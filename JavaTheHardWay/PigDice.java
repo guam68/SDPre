@@ -59,6 +59,8 @@ public class PigDice {
                 System.out.print(ctot + " points.\n");
             }
 
+            keyboard.close();
+
         } while (ptot < 100 && ctot < 100);
 
         if (ptot > ctot) {
